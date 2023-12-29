@@ -1,3 +1,4 @@
+const ca_cert = process.env.ca_cert
 module.exports = {
     development: {
         username: 'postgres',
