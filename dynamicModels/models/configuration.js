@@ -29,6 +29,7 @@ module.exports = (sequelize, DataTypes, schema) => {
             color: DataTypes.STRING,
             name: DataTypes.STRING,
             instructions: DataTypes.STRING,
+            file_name: DataTypes.STRING,
             is_deleted: {
                 type: DataTypes.BOOLEAN,
                 defaultValue: false
