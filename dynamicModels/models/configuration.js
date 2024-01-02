@@ -25,6 +25,10 @@ module.exports = (sequelize, DataTypes, schema) => {
             openai_key: DataTypes.STRING,
             ai_model: DataTypes.STRING,
             price_class: DataTypes.STRING,
+            logo: DataTypes.STRING,
+            color: DataTypes.STRING,
+            name: DataTypes.STRING,
+            instructions: DataTypes.STRING,
             is_deleted: {
                 type: DataTypes.BOOLEAN,
                 defaultValue: false
