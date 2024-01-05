@@ -30,6 +30,8 @@ module.exports = (sequelize, DataTypes, schema) => {
             name: DataTypes.STRING,
             instructions: DataTypes.STRING(10485760),
             file_name: DataTypes.STRING(10485760),
+            file_list: DataTypes.STRING(10485760),
+            feedback: DataTypes.STRING(10485760),
             questions: DataTypes.ARRAY(DataTypes.STRING),
             is_deleted: {
                 type: DataTypes.BOOLEAN,
