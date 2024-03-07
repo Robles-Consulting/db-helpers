@@ -78,15 +78,6 @@ const initPromise = (cloudConfig = config, schema, alter = false) => {
     }
 }
 
-// const createDB = () => {
-//     exec('cd node_modules && cd context-helpers && npm run createDB', (error, stdout, stderr) => {
-//         console.log('stdout: ' + stdout)
-//         console.log('stderr: ' + stderr)
-//         if (error !== null) {
-//             console.log('exec error: ' + error)
-//         }
-//     })
-// }
 
 const migrateDB = () => {
     try {
@@ -103,18 +94,6 @@ const migrateDB = () => {
         console.log('***')
     }
 }
-
-// var sequelize = new Sequelize(config.database, config.username, config.password, {
-//     host: config.host,
-//     port: 5432,
-//     maxConcurrentQueries: 100,
-//     dialect: 'postgres',
-//     dialectOptions: {
-//         ssl: true
-//     },
-//     pool: { maxConnections: 5, maxIdleTime: 30 },
-//     language: 'en'
-// })
 
 module.exports = {
     init,

@@ -12,14 +12,6 @@ module.exports = {
             ca: ca_cert,
         },
     },
-    // development: {
-    //     username: 'postgres',
-    //     password: 'postgres',
-    //     database: 'postgres',
-    //     host: 'localhost',
-    //     dialect: 'postgres',
-    //     port: 5432
-    // },
     production: {
         username: 'doadmin',
         password: 'AVNS_TV_50hLSrZj13y7Xyc2',
@@ -32,12 +24,4 @@ module.exports = {
             ca: ca_cert,
         },
     }
-    // production: {
-    //     username: 'postgres',
-    //     password: 'postgres',
-    //     database: 'postgres',
-    //     host: process.env.HOST,
-    //     dialect: 'postgres',
-    //     port: 5432
-    // }
 }
